@@ -61,5 +61,8 @@ def textconver():
     except:
             Output.delete("1.0","end")
             Output.insert(END, f"You have choosen a file {filename} which is not voice recording file")
+def voicerec():
+    chunk = 1024  # Record in chunks of 1024 samples
+    sample_format = pyaudio.paInt16 
         
         
