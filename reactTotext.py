@@ -108,6 +108,7 @@ if __name__ == "__main__" :
     root = Tk()
     root.title("Text-Recording")
     filename =''
+    label_file_explorer = Label(root,text = "No file Chosen", width = 12, height = 1,fg = "blue")
 
         
         
