@@ -40,6 +40,7 @@ def textconver():
         print('Converting....Wait for while')
         m4a_file = filename
         wav_filename = "random.wav"
+        track = AudioSegment.from_file(m4a_file,  format= 'm4a')
         
         
         
