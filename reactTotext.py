@@ -125,6 +125,7 @@ if __name__ == "__main__" :
     labeldisday=Label(root,text=f"{today:%A}",font="bold",fg="white",bg="black")
     labeldistime.grid(row=2,column=2)
     labeldisday.grid(row=3,column=2)
+    changetextOnHover(labeldisday,"red","white")
 
 
         
