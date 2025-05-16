@@ -128,7 +128,7 @@ if __name__ == "__main__" :
     changetextOnHover(labeldisday,"red","white")
     changetextOnHover(labeldistime,"red","white")
     root.configure(bg='gray19')
-    p1 = PhotoImage(file = 'stotlogo.png')
+    p1 = PhotoImage(file = 'logo.png')
     root.iconphoto(False, p1)
     root.resizable(False, False)
     mainloop()
