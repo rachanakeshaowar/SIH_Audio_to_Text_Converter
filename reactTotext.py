@@ -28,5 +28,9 @@ def browseFiles():
         pass
     else:
         label_file_explorer.configure(text="File Opened: "+filename)
+def textconver():
+    global filename
+    print(len(filename))
+    if(len(filename)==0):
         
         
