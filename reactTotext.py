@@ -122,6 +122,7 @@ if __name__ == "__main__" :
     changeOnHover(button,"gray","#212529")
     button.grid(row = 1, column = 2)
     labeldistime=Label(root,text=f"{today:%B %d, %Y}",font="bold",fg="white",bg="black")
+    labeldisday=Label(root,text=f"{today:%A}",font="bold",fg="white",bg="black")
 
 
         
