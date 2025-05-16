@@ -97,6 +97,8 @@ def voicerec():
     wf.writeframes(b''.join(frames))
     wf.close()
 def callback():
+    link='https://speechtotex.netlify.app/'
+    Output.delete("1.0","end")
 
         
         
