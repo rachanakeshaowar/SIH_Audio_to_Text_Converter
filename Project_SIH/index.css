@@ -33,3 +33,5 @@
 .box_1{
     display: flex;
     text-align: center; 
+      padding-right: 10px;  
+}
