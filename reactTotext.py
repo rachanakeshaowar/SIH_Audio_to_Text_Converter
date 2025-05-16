@@ -53,5 +53,8 @@ def textconver():
             INPUT = 'random'+a+'.txt'
             with open(INPUT,mode ="w") as file:
                 file.write("Recognized text:")
+                file.write("\n")
+                file.write(result)
+                print("Conversion is completed and file is saved as ",INPUT)
         
         
