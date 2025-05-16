@@ -78,6 +78,11 @@ def voicerec():
                     input=True)
 
     frames = [] 
+    j=0
+    while 1:
+        if(j==4):
+            break
+        for i in range(0, int(fs / chunk * seconds)):
         
         
         
