@@ -19,3 +19,5 @@ with open("harsh.txt",mode ="w") as file:
      r = sr.Recognizer()
 
 audio_file = sr.AudioFile("download.wav")
+with audio_file as source:
+ 
