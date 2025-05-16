@@ -101,6 +101,10 @@ def callback():
     Output.delete("1.0","end")
     Output.insert(END,f"You have clicked on the Live Recording")
     webbrowser.open_new_tab(link)
+    
+if __name__ == "__main__" :
+    r = sr.Recognizer()
+    today = date.today()
 
         
         
