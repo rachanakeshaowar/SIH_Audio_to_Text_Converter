@@ -38,5 +38,8 @@ def textconver():
         Output.delete("1.0","end")
         Output.insert(END, "Converting....Wait for while")
         print('Converting....Wait for while')
+        m4a_file = filename
+        wav_filename = "random.wav"
+        
         
         
