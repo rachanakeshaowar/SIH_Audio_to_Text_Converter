@@ -113,6 +113,7 @@ if __name__ == "__main__" :
     button_explore = Button(root,text = "Browse File",command = browseFiles,width=15, font="Bold",foreground="white",bg="#212529")
     button_explore.grid(row=1, column=0)
     changeOnHover(button_explore,"gray","#212529")
+    button = Button(root, text='Convert to text', width=15, font="Bold",foreground="white",bg="#212529",command=threading)
 
 
         
