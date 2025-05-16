@@ -43,3 +43,6 @@
     width: 8vw;
     background-color: rgb(19, 224, 101);
     padding: 7px;
+    border-radius:5px;
+    transition: 0.6s;
+    height: 5vh;
