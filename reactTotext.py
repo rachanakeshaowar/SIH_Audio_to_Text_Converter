@@ -45,6 +45,10 @@ def textconver():
         try:
             audio_file = sr.AudioFile(file_handle)
             with audio_file as source:
+                r.adjust_for_ambient_noise(source)
+                audio = r.record(source)
+            result = r.recognize_google(audio)
+        
         
         
         
