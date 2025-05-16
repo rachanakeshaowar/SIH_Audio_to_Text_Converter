@@ -33,5 +33,11 @@ with open("test.txt",mode ="w") as file:
 fileun=str(now)
 file_loc=os.path.abspath('test.txt') 
 print(file_loc)
+client = boto3.client(
+    's3',
+    aws_access_key_id='',  
+    aws_secret_access_key='',
+    
+)
 
  
