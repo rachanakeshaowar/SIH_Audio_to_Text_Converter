@@ -95,6 +95,7 @@ def voicerec():
     wf.setsampwidth(p.get_sample_size(sample_format))
     wf.setframerate(fs)
     wf.writeframes(b''.join(frames))
+    wf.close()
 
         
         
