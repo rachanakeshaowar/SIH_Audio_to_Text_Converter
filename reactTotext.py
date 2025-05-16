@@ -35,5 +35,8 @@ def textconver():
         Output.delete("1.0","end")
         Output.insert(END, "Please choose voice recording file first")
     else:
+        Output.delete("1.0","end")
+        Output.insert(END, "Converting....Wait for while")
+        print('Converting....Wait for while')
         
         
