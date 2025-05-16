@@ -18,4 +18,8 @@
 .container{
     /* background: linear-gradient(100deg,#b2aeb3,#908d93); */
     background: #313030;
+       background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px;
+}
  
