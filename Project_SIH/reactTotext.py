@@ -8,3 +8,4 @@ from tkinter import filedialog
 from datetime import date
 import webbrowser
 import random
+def changeOnHover(button, colorOnHover, colorOnLeave):
