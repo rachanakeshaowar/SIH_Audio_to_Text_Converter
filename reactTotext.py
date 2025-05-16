@@ -27,4 +27,6 @@ def browseFiles():
     if(len(filename)==0):
         pass
     else:
+        label_file_explorer.configure(text="File Opened: "+filename)
+        
         
