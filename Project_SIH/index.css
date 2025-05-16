@@ -48,3 +48,5 @@
     height: 5vh;
     font-size: 90%;
     color: #000;
+    box-shadow: 0 5px 35px 15px  rgba(30, 8, 6, 0.481),0 10px 16px 0 rgb(4, 37, 80);
+}
