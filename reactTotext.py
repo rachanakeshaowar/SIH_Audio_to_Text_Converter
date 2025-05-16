@@ -13,3 +13,5 @@ def changeOnHover(button, colorOnHover, colorOnLeave):
             background=colorOnHover))
         button.bind("<Leave>", func=lambda e: button.config(
             background=colorOnLeave))
+def changetextOnHover(button, colorOnHover, colorOnLeave):
+        button.bind("<Enter>", 
