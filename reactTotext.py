@@ -99,6 +99,8 @@ def voicerec():
 def callback():
     link='https://speechtotex.netlify.app/'
     Output.delete("1.0","end")
+    Output.insert(END,f"You have clicked on the Live Recording")
+    webbrowser.open_new_tab(link)
 
         
         
