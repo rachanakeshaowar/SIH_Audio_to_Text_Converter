@@ -56,5 +56,7 @@ def textconver():
                 file.write("\n")
                 file.write(result)
                 print("Conversion is completed and file is saved as ",INPUT)
+            Output.delete("1.0","end")
+            Output.insert(END, f"Conversion is completed and file is saved as {INPUT}")
         
         
