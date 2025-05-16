@@ -120,6 +120,8 @@ if __name__ == "__main__" :
     Output.grid(row=0,column=2)
     button = Button(root, text='Do Live Recording', width=15, font="Bold",foreground="white",bg="#212529",command=callback)
     changeOnHover(button,"gray","#212529")
+    button.grid(row = 1, column = 2)
+    labeldistime=Label(root,text=f"{today:%B %d, %Y}",font="bold",fg="white",bg="black")
 
 
         
