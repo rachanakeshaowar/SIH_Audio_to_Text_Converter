@@ -26,4 +26,6 @@ result = r.recognize_google(audio)
 with open("test.txt",mode ="w") as file:
     file.write("Recognized text:")
     file.write("\n")
+    file.write(result)
+    print("Hurray! conversion is completed")
  
