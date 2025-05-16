@@ -32,5 +32,8 @@ def textconver():
     global filename
     print(len(filename))
     if(len(filename)==0):
+        Output.delete("1.0","end")
+        Output.insert(END, "Please choose voice recording file first")
+    else:
         
         
