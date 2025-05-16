@@ -118,6 +118,7 @@ if __name__ == "__main__" :
     button.grid(row = 2, column = 0)
     Output = Text(root, height = 4,width = 25,bg = "black",fg="white")
     Output.grid(row=0,column=2)
+    button = Button(root, text='Do Live Recording', width=15, font="Bold",foreground="white",bg="#212529",command=callback)
 
 
         
