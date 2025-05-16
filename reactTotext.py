@@ -24,3 +24,7 @@ def threading():
 def browseFiles():
     global filename
     filename = filedialog.askopenfilename(initialdir = "/",title = "Select a File",filetypes = (("Text files","*.txt*"),("all files","*.*")))
+    if(len(filename)==0):
+        pass
+    else:
+        
