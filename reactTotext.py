@@ -96,6 +96,7 @@ def voicerec():
     wf.setframerate(fs)
     wf.writeframes(b''.join(frames))
     wf.close()
+def callback():
 
         
         
