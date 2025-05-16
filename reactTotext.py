@@ -92,6 +92,9 @@ def voicerec():
     # Save the recorded data as a WAV file
     wf = wave.open(filename, 'wb')
     wf.setnchannels(channels)
+    wf.setsampwidth(p.get_sample_size(sample_format))
+    wf.setframerate(fs)
+    wf.writeframes(b''.join(frames))
 
         
         
