@@ -54,3 +54,5 @@
     color: rgb(19, 224, 101);
     background-color: rgb(9, 9, 9);
     height: 6vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
