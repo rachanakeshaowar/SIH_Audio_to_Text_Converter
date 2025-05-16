@@ -127,6 +127,8 @@ if __name__ == "__main__" :
     labeldisday.grid(row=3,column=2)
     changetextOnHover(labeldisday,"red","white")
     changetextOnHover(labeldistime,"red","white")
+    root.configure(bg='gray19')
+    p1 = PhotoImage(file = 'stotlogo.png')
 
 
         
