@@ -71,5 +71,8 @@ def voicerec():
     p = pyaudio.PyAudio()  # Create an interface to PortAudio
 
     print('Recording')
+    stream = p.open(format=sample_format,
+                    channels=channels,
+                    rate=fs,
         
         
