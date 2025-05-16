@@ -61,6 +61,8 @@
 }
 #stop{
     color: rgb(224, 19, 19);
+     background-color: rgb(6, 6, 6);
+    /* box-shadow: 0 10 10px  rgb(224, 19, 19), 10 10 80px  rgb(224, 19, 19), 0 0 80px  rgb(224, 19, 19); */
 
 
 
