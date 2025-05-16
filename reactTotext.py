@@ -18,3 +18,6 @@ def changetextOnHover(button, colorOnHover, colorOnLeave):
             fg=colorOnHover))
         button.bind("<Leave>", func=lambda e: button.config(
             fg=colorOnLeave))
+def threading():
+        t1=Thread(target=textconver)
+        t1.start()
