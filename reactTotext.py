@@ -112,6 +112,7 @@ if __name__ == "__main__" :
     label_file_explorer.grid(column = 0, row = 0)
     button_explore = Button(root,text = "Browse File",command = browseFiles,width=15, font="Bold",foreground="white",bg="#212529")
     button_explore.grid(row=1, column=0)
+    changeOnHover(button_explore,"gray","#212529")
 
 
         
