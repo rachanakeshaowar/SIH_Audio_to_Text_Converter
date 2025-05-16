@@ -26,3 +26,7 @@
     text-align: center;
     /* color: rgb(7, 7, 7); */
     color: #fff;
+       padding: 10px; 
+    display: grid;
+    /* text-shadow: 3px 8px 8px rgba(54, 54, 53, 0.636),3px 3px 5px rgba(5, 0, 13, 0.727); */
+}
