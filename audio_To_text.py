@@ -31,4 +31,7 @@ with open("test.txt",mode ="w") as file:
     
     now = datetime.datetime.now()
 fileun=str(now)
+file_loc=os.path.abspath('test.txt') 
+print(file_loc)
+
  
