@@ -48,6 +48,10 @@ def textconver():
                 r.adjust_for_ambient_noise(source)
                 audio = r.record(source)
             result = r.recognize_google(audio)
+            num = random.randrange(1,1000000000000000000)
+            a=(str)(num)
+            INPUT = 'random'+a+'.txt'
+            with open(INPUT,mode ="w") 
         
         
         
