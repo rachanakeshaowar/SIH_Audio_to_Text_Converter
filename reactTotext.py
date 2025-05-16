@@ -105,6 +105,9 @@ def callback():
 if __name__ == "__main__" :
     r = sr.Recognizer()
     today = date.today()
+    root = Tk()
+    root.title("Text-Recording")
+    filename =''
 
         
         
