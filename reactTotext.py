@@ -21,3 +21,6 @@ def changetextOnHover(button, colorOnHover, colorOnLeave):
 def threading():
         t1=Thread(target=textconver)
         t1.start()
+def browseFiles():
+    global filename
+    filename = filedialog.askopenfilename(initialdir = "/",title = "Select a File",filetypes = (("Text files","*.txt*"),("all files","*.*")))
