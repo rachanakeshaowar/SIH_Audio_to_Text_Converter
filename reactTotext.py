@@ -41,6 +41,7 @@ def textconver():
         m4a_file = filename
         wav_filename = "random.wav"
         track = AudioSegment.from_file(m4a_file,  format= 'm4a')
+        file_handle = track.export(wav_filename, format='wav')
         
         
         
