@@ -87,6 +87,11 @@ def voicerec():
     stream.close()
     # Terminate the PortAudio interface
     p.terminate()
+    print('Finished recording')
+
+    # Save the recorded data as a WAV file
+    wf = wave.open(filename, 'wb')
+    wf.setnchannels(channels)
 
         
         
