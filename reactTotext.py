@@ -74,5 +74,9 @@ def voicerec():
     stream = p.open(format=sample_format,
                     channels=channels,
                     rate=fs,
+                    frames_per_buffer=chunk,
+                    input=True)
+
+    frames = [] 
         
         
