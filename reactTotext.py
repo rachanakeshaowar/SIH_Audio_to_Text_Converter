@@ -126,6 +126,7 @@ if __name__ == "__main__" :
     labeldistime.grid(row=2,column=2)
     labeldisday.grid(row=3,column=2)
     changetextOnHover(labeldisday,"red","white")
+    changetextOnHover(labeldistime,"red","white")
 
 
         
