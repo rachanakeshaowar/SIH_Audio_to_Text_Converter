@@ -42,7 +42,7 @@ def textconver():
         wav_filename = "random.wav"
         track = AudioSegment.from_file(m4a_file,  format= 'm4a')
         file_handle = track.export(wav_filename, format='wav')
-       try:
+    try:
             audio_file = sr.AudioFile(file_handle)
             with audio_file as source:
                 r.adjust_for_ambient_noise(source)
@@ -58,5 +58,8 @@ def textconver():
                 print("Conversion is completed and file is saved as ",INPUT)
             Output.delete("1.0","end")
             Output.insert(END, f"Conversion is completed and file is saved as {INPUT}")
+    except:
+            Output.delete("1.0","end")
+            Output.insert(END, f"You have choosen a file {filename} which is not voice recording file")
         
         
