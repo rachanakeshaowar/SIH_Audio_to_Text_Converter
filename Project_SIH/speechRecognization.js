@@ -67,13 +67,13 @@ function downloadFile(filename, content) {
        const content = document.getElementById('final').value;
 
        if (filename && content) {
-
+           downloadFile(filename + '.txt', content);
 
 
       
 
 
-        
+
 
 
   
