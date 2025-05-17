@@ -60,3 +60,4 @@ var langs =
                      ['yue-Hant-HK', '粵語 (香港)']],
  ['日本語',           ['ja-JP']],
  ['Lingua latīna',   ['la']]];
+ let select_language = document.querySelector('#select_language');
