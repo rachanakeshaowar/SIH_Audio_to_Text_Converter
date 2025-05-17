@@ -42,12 +42,13 @@ if ("webkitSpeechRecognition" in window) {
       speechRecognition.stop();
       speech = false;
       console.log('paused')
+       });
     
 
 
 
 
-      
+
 
 
 
