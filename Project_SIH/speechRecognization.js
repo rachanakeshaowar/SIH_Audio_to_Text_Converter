@@ -38,12 +38,13 @@ if ("webkitSpeechRecognition" in window) {
   };
     document.getElementById('stop').
     addEventListener('click', e => {
+      speechRecognition.removeEventListener("end", speechRecognition.start);
     
 
 
 
 
-      
+
 
 
 
