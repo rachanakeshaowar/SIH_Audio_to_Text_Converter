@@ -40,10 +40,11 @@ if ("webkitSpeechRecognition" in window) {
     addEventListener('click', e => {
       speechRecognition.removeEventListener("end", speechRecognition.start);
       speechRecognition.stop();
+      speech = false;
     
 
 
-      
+
 
 
 
