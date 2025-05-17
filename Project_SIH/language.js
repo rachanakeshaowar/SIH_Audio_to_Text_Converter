@@ -46,3 +46,6 @@ var langs =
  ['Polski',          ['pl-PL']],
  ['Português',       ['pt-BR', 'Brasil'],
                      ['pt-PT', 'Portugal']],
+ ['Română',          ['ro-RO']],
+ ['Slovenčina',      ['sk-SK']],
+ ['Suomi',           ['fi-FI']],
