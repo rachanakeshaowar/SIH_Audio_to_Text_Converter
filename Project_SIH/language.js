@@ -37,3 +37,8 @@ var langs =
  ['Galego',          ['gl-ES']],
  ['Hrvatski',        ['hr_HR']],
  ['IsiZulu',         ['zu-ZA']],
+ ['Íslenska',        ['is-IS']],
+ ['Italiano',        ['it-IT', 'Italia'],
+                     ['it-CH', 'Svizzera']],
+ ['Magyar',          ['hu-HU']],
+ ['Nederlands',      ['nl-NL']],
