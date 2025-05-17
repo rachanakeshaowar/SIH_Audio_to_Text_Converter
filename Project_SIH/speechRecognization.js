@@ -13,8 +13,9 @@ if ("webkitSpeechRecognition" in window) {
     document.querySelector("#status").style.display = "none";
      console.log("Speech Recognition Error");
   };
+  speechRecognition.onend = () => {
 
 
 
-  
+
 
