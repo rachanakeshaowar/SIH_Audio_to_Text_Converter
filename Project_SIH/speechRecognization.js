@@ -10,6 +10,7 @@ if ("webkitSpeechRecognition" in window) {
      document.querySelector("#status").style.display = "block";
   };
   speechRecognition.onerror = () => {
+    document.querySelector("#status").style.display = "none";
 
 
 
