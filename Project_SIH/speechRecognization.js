@@ -47,10 +47,11 @@ if ("webkitSpeechRecognition" in window) {
   console.log("Speech Recognition Not Available");
 }
 function downloadFile(filename, content) {
+  const element = document.createElement('a');
     
 
 
-  
+
 
 
 
