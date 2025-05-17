@@ -63,6 +63,8 @@ function downloadFile(filename, content) {
      document.getElementById('save-note-btn').
     addEventListener('click', e => {
       var select = document.getElementById('filetype');
+      
+      const filename = document.getElementById('filename').value;
 
   
 
@@ -73,7 +75,7 @@ function downloadFile(filename, content) {
 
 
 
-      
+
 
 
 
