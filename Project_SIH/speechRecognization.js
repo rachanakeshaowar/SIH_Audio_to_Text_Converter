@@ -41,6 +41,7 @@ if ("webkitSpeechRecognition" in window) {
       speechRecognition.removeEventListener("end", speechRecognition.start);
       speechRecognition.stop();
       speech = false;
+      console.log('paused')
     
 
 
@@ -48,7 +49,7 @@ if ("webkitSpeechRecognition" in window) {
 
 
 
-      
+
 
 
 
