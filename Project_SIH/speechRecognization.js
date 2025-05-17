@@ -58,12 +58,12 @@ function downloadFile(filename, content) {
   document.body.removeChild(element);
   document.getElementById("final").innerHTML = ''
   document.getElementById('filename').innerHTML = ''
-
-
-  
-
+  };
 
   
+
+
+
 
 
 
