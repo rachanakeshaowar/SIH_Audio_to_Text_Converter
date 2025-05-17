@@ -69,6 +69,7 @@ function downloadFile(filename, content) {
        if (filename && content) {
            downloadFile(filename + '.txt', content);
            document.getElementById("final").innerHTML = ''
+           document.getElementById('filename').innerHTML = ''
 
 
       
