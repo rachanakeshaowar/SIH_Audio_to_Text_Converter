@@ -14,10 +14,13 @@ if ("webkitSpeechRecognition" in window) {
      console.log("Speech Recognition Error");
   };
   speechRecognition.onend = () => {
+    if (speech === true) {
+      speechRecognition.start();
+    }
 
 
 
-    
+
 
 
 
