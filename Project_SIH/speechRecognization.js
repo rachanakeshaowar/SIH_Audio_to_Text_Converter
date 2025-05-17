@@ -39,13 +39,16 @@ if ("webkitSpeechRecognition" in window) {
 
 
 
-
-
-
-
-
-
   
+
+
+
+
+
+
+
+
+
 
 
 
