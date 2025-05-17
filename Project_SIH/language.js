@@ -67,3 +67,4 @@ var langs =
 }
 select_language.selectedIndex = 6;
 updateCountry();
+select_dialect.selectedIndex = 6;
