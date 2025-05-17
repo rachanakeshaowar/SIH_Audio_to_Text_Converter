@@ -42,3 +42,7 @@ var langs =
                      ['it-CH', 'Svizzera']],
  ['Magyar',          ['hu-HU']],
  ['Nederlands',      ['nl-NL']],
+ ['Norsk bokmål',    ['nb-NO']],
+ ['Polski',          ['pl-PL']],
+ ['Português',       ['pt-BR', 'Brasil'],
+                     ['pt-PT', 'Portugal']],
