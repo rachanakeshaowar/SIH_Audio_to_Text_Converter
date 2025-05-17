@@ -68,3 +68,7 @@ var langs =
 select_language.selectedIndex = 6;
 updateCountry();
 select_dialect.selectedIndex = 6;
+function updateCountry() {
+  for (var i = select_dialect.options.length - 1; i >= 0; i--) {
+    select_dialect.remove(i);
+  }
