@@ -46,6 +46,7 @@ if ("webkitSpeechRecognition" in window) {
        } else {
   console.log("Speech Recognition Not Available");
 }
+function downloadFile(filename, content) {
     
 
 
