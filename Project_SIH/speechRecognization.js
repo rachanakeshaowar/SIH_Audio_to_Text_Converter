@@ -59,6 +59,7 @@ function downloadFile(filename, content) {
   document.getElementById("final").innerHTML = ''
   document.getElementById('filename').innerHTML = ''
   };
+  window.onload = () => {
 
   
 
