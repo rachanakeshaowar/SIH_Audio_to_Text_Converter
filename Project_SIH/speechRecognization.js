@@ -32,11 +32,12 @@ if ("webkitSpeechRecognition" in window) {
     }
  document.getElementById('final').innerHTML = final_transcript;
  document.querySelector("#interim").innerHTML = interim_transcript;
+   };
 
 
 
 
- 
+
 
 
 
