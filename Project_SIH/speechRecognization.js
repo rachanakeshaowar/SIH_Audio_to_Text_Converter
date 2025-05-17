@@ -37,6 +37,9 @@ if ("webkitSpeechRecognition" in window) {
        speechRecognition.start();
   };
     document.getElementById('stop').
+    
+
+    
 
 
 
