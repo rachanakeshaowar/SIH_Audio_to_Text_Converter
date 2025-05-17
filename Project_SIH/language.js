@@ -62,3 +62,6 @@ var langs =
  ['Lingua latīna',   ['la']]];
  let select_language = document.querySelector('#select_language');
  let select_dialect = document.querySelector('#select_dialect');
+ for (var i = 0; i < langs.length; i++) {
+  select_language.options[i] = new Option(langs[i][0], i);
+}
