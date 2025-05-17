@@ -61,3 +61,4 @@ var langs =
  ['日本語',           ['ja-JP']],
  ['Lingua latīna',   ['la']]];
  let select_language = document.querySelector('#select_language');
+ let select_dialect = document.querySelector('#select_dialect');
