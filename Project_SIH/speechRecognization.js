@@ -34,6 +34,8 @@ if ("webkitSpeechRecognition" in window) {
  document.querySelector("#interim").innerHTML = interim_transcript;
    };
     document.querySelector("#start").onclick = () => {
+       speechRecognition.start();
+  };
 
 
 
@@ -41,7 +43,7 @@ if ("webkitSpeechRecognition" in window) {
 
 
 
-      
+
 
 
 
