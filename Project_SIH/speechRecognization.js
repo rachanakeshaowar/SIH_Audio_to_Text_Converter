@@ -36,10 +36,11 @@ if ("webkitSpeechRecognition" in window) {
     document.querySelector("#start").onclick = () => {
        speechRecognition.start();
   };
+    document.getElementById('stop').
 
 
 
-  
+
 
 
 
