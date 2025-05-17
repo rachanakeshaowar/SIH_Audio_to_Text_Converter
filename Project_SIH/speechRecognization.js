@@ -51,6 +51,7 @@ function downloadFile(filename, content) {
   const blob = new Blob([content], { type: 'plain/text' });
     const fileUrl = URL.createObjectURL(blob);
      element.setAttribute('href', fileUrl);
+       element.setAttribute('download', filename);
   
 
 
