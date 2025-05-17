@@ -43,6 +43,9 @@ if ("webkitSpeechRecognition" in window) {
       speech = false;
       console.log('paused')
        });
+       } else {
+  console.log("Speech Recognition Not Available");
+}
     
 
 
