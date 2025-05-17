@@ -48,12 +48,13 @@ if ("webkitSpeechRecognition" in window) {
 }
 function downloadFile(filename, content) {
   const element = document.createElement('a');
+  const blob = new Blob([content], { type: 'plain/text' });
     
 
 
 
 
-  
+
 
 
 
