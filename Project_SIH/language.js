@@ -49,3 +49,6 @@ var langs =
  ['Română',          ['ro-RO']],
  ['Slovenčina',      ['sk-SK']],
  ['Suomi',           ['fi-FI']],
+ ['Svenska',         ['sv-SE']],
+ ['Türkçe',          ['tr-TR']],
+ ['български',       ['bg-BG']],
