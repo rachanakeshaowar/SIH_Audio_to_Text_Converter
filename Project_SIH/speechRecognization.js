@@ -21,13 +21,15 @@ if ("webkitSpeechRecognition" in window) {
     document.querySelector("#status").style.display = "none";
      console.log("Speech Recognition Ended");
   };
+  speechRecognition.onresult = (event) => {
+    let interim_transcript = "";
 
 
 
 
 
 
-  
+
 
 
 
