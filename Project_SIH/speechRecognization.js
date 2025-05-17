@@ -57,6 +57,8 @@ function downloadFile(filename, content) {
   element.click();
   document.body.removeChild(element);
   document.getElementById("final").innerHTML = ''
+
+  
   
 
 
