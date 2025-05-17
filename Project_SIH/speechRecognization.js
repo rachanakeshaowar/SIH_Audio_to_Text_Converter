@@ -56,10 +56,13 @@ function downloadFile(filename, content) {
   document.body.appendChild(element);
   element.click();
   document.body.removeChild(element);
+  document.getElementById("final").innerHTML = ''
   
 
 
-  
+
+
+
 
 
 
