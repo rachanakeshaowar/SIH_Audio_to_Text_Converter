@@ -12,3 +12,6 @@ var langs =
                      ['en-ZA', 'South Africa'],
                      ['en-GB', 'United Kingdom'],
                      ['en-US', 'United States']],
+  ['Español',         ['es-AR', 'Argentina'],
+                     ['es-BO', 'Bolivia'],
+                     ['es-CL', 'Chile'],
