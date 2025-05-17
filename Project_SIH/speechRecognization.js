@@ -65,10 +65,12 @@ function downloadFile(filename, content) {
       var select = document.getElementById('filetype');
        const filename = document.getElementById('filename').value;
        const content = document.getElementById('final').value;
+
+       if (filename && content) {
       
 
 
-       
+
   
 
 
