@@ -70,11 +70,12 @@ function downloadFile(filename, content) {
            downloadFile(filename + '.txt', content);
            document.getElementById("final").innerHTML = ''
            document.getElementById('filename').innerHTML = ''
+           window.location.reload();
 
 
       
 
-           
+
 
 
 
