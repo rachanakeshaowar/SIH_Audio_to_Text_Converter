@@ -18,6 +18,7 @@ if ("webkitSpeechRecognition" in window) {
       speechRecognition.start();
     }
     console.log(speech, 'dd')
+    document.querySelector("#status").style.display = "none";
 
 
 
