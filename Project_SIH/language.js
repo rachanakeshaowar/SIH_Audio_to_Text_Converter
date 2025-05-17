@@ -21,3 +21,8 @@ var langs =
                      ['es-SV', 'El Salvador'],
                      ['es-ES', 'España'],
                      ['es-US', 'Estados Unidos'],
+                     ['es-GT', 'Guatemala'],
+                     ['es-HN', 'Honduras'],
+                     ['es-MX', 'México'],
+                     ['es-NI', 'Nicaragua'],
+                     ['es-PA', 'Panamá'],
