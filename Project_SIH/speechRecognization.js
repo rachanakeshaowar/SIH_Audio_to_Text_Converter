@@ -60,12 +60,14 @@ function downloadFile(filename, content) {
   document.getElementById('filename').innerHTML = ''
   };
   window.onload = () => {
+     document.getElementById('save-note-btn').
+    addEventListener('click', e => {
 
   
 
 
 
-    
+
 
 
 
