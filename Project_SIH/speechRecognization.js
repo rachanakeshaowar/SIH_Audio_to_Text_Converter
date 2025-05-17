@@ -6,3 +6,9 @@ if ("webkitSpeechRecognition" in window) {
   speechRecognition.continuous = true;
    speechRecognition.interimResults = true;
   speechRecognition.lang = document.querySelector("#select_dialect").value;
+  speechRecognition.onstart = () => {
+
+
+
+
+    
