@@ -24,12 +24,14 @@ if ("webkitSpeechRecognition" in window) {
   speechRecognition.onresult = (event) => {
     let interim_transcript = "";
     or (let i = event.resultIndex; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        final_transcript += event.results[i][0].transcript;
 
 
 
 
 
-      
+
 
 
 
