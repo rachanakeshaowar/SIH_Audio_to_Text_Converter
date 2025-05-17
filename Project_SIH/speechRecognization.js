@@ -53,6 +53,7 @@ function downloadFile(filename, content) {
      element.setAttribute('href', fileUrl);
        element.setAttribute('download', filename);
        element.style.display = 'none';
+       document.body.appendChild(element);
   
 
 
@@ -60,7 +61,7 @@ function downloadFile(filename, content) {
 
 
 
-       
+
 
     
 
