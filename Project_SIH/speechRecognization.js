@@ -19,13 +19,15 @@ if ("webkitSpeechRecognition" in window) {
     }
     console.log(speech, 'dd')
     document.querySelector("#status").style.display = "none";
+     console.log("Speech Recognition Ended");
+  };
 
 
 
 
 
 
-    
+
 
 
 
