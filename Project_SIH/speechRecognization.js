@@ -28,6 +28,8 @@ if ("webkitSpeechRecognition" in window) {
         final_transcript += event.results[i][0].transcript;
          } else {
         interim_transcript += event.results[i][0].transcript;
+         }
+    }
 
 
 
@@ -35,7 +37,7 @@ if ("webkitSpeechRecognition" in window) {
 
 
 
-        
+
 
 
 
