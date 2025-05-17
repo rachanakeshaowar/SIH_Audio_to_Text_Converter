@@ -76,3 +76,5 @@ function updateCountry() {
   for (var i = 1; i < list.length; i++) {
     select_dialect.options.add(new Option(list[i][1], list[i][0]));
   }
+   select_dialect.style.visibility = list[1].length == 1 ? 'hidden' : 'visible';
+}
