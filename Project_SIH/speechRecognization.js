@@ -52,13 +52,14 @@ function downloadFile(filename, content) {
     const fileUrl = URL.createObjectURL(blob);
      element.setAttribute('href', fileUrl);
        element.setAttribute('download', filename);
+       element.style.display = 'none';
   
 
 
 
 
 
-       
+
     
 
 
