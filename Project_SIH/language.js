@@ -5,3 +5,6 @@ var langs =
  ['Català',          ['ca-ES']],
  ['Čeština',         ['cs-CZ']],
  ['Deutsch',         ['de-DE']],
+ ['English',         ['en-AU', 'Australia'],
+                     ['en-CA', 'Canada'],
+                     ['en-IN', 'India'],
