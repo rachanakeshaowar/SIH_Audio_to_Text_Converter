@@ -54,6 +54,7 @@ function downloadFile(filename, content) {
        element.setAttribute('download', filename);
        element.style.display = 'none';
        document.body.appendChild(element);
+         element.click();
   
 
 
