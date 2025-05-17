@@ -17,12 +17,12 @@ if ("webkitSpeechRecognition" in window) {
     if (speech === true) {
       speechRecognition.start();
     }
+    console.log(speech, 'dd')
 
 
 
 
 
-    
 
 
 
