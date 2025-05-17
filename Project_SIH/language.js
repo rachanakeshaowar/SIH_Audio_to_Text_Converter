@@ -26,3 +26,7 @@ var langs =
                      ['es-MX', 'México'],
                      ['es-NI', 'Nicaragua'],
                      ['es-PA', 'Panamá'],
+                     ['es-PY', 'Paraguay'],
+                     ['es-PE', 'Perú'],
+                     ['es-PR', 'Puerto Rico'],
+                     ['es-DO', 'República Dominicana'],
