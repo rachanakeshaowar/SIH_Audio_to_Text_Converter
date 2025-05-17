@@ -8,6 +8,7 @@ if ("webkitSpeechRecognition" in window) {
   speechRecognition.lang = document.querySelector("#select_dialect").value;
   speechRecognition.onstart = () => {
      document.querySelector("#status").style.display = "block";
+      };
 
 
 
